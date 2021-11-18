@@ -32,6 +32,7 @@ public class IterativeBinarySearch {
         }
         System.out.println("Which number do you want to find?");
         int x=sc.nextInt();
+        Arrays.sort(arr);
         if(binarySearch(arr, x)){
             System.out.println("Number Found");
         }
