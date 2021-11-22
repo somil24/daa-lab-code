@@ -1,5 +1,4 @@
-package SortingAlgorithm.InsertionSort;
-
+package InsertionSort;
 import java.util.Scanner;
 
 public class Insertion {
