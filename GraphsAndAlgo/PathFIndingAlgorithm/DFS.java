@@ -1,5 +1,6 @@
-public class Prims {
+public class DFS {
+
     public static void main(String[] args) {
-         
+        
     }
 }
