@@ -1,4 +1,4 @@
-package SearchingAlgorithms.BinarySearch;
+
 import java.util.*;
 
 public class IterativeBinarySearch {

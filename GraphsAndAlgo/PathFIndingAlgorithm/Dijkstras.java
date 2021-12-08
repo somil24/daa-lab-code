@@ -16,7 +16,7 @@ class Dijkstras {
         return minIndex;
     }
 
-    static void dijkstras(int graph[][],int src,int dist[],int vertices,int edges){
+    static void dijkstras(int graph[][],int src,int dist[],int vertices){
         Boolean setShortestPath[]=new Boolean[vertices];
         Arrays.fill(setShortestPath, false);
         for(int count=0;count<vertices-1;count++){
@@ -68,7 +68,7 @@ class Dijkstras {
         int source=sc.nextInt();
         dist[source]=0;
         
-        dijkstras(graph, source, dist,vertices,edges);
+        dijkstras(graph, source, dist,vertices);
         sc.close();
 
     }

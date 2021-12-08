@@ -1,4 +1,4 @@
-package SelectionSort;
+
 import java.util.*;
 public class SelectionSort {
 
@@ -21,7 +21,7 @@ public class SelectionSort {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-
+        sort(arr);
         for(int i:arr){
             System.out.print(i+" ");
         }
